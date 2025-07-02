@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Goldbach Giant Decomposer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 2em;
+      background-color: #f8f9fa;
+    }
+    input, button {
+      font-size: 1.2em;
+      padding: 0.5em;
+      margin: 1em;
+      width: 80%;
+      max-width: 600px;
+    }
+    #result {
+      margin-top: 2em;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Goldbach Giant Decomposer</h1>
+  <p>Enter a large even number (e.g., 10<sup>20</sup>)</p>
+  <input type="text" id="inputNumber" placeholder="Enter even number..." />
+  <br>
+  <button onclick="decompose()">Decompose</button>
+  <div id="result">Result will appear here.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
